@@ -1,55 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resellers</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resellers Hub</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0a0a0a, #1a1a1a, #121212);
+      color: #f0f0f0;
+      text-align: center;
+      font-size: 1.2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 2rem;
+      background-color: #1c1c1c;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 255, 170, 0.3);
+      animation: slideUp 1s ease-out forwards;
+    }
+
+    h1 {
+      color: #00ffd5;
+      text-shadow: 0 0 12px #00ffd5;
+      font-size: 2.2em;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #e0e0e0;
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #ff3c78;
+      font-weight: bold;
+      text-shadow: 0 0 8px #ff3c78;
+    }
+
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.3em;
+      color: #ffaa00;
+      text-shadow: 0 0 8px #ffaa00;
+    }
+
+    a {
+      color: #00ffd5;
+      font-weight: bold;
+      text-decoration: underline;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff6ad5;
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Welcome</h1>
-  <p class="red">If you are here its assumed u want to be a resseller so kindly <a href="https://chat.whatsapp.com/KRvHA2JsFStJwyH1X1TdxL">tap here</a> to become one</p>
-<p>so wat we do here is find more buyers for the products availabe its just like getting refferals</p>
-  <p class="red">Extra: any reseller with the highest refferals get a handsome gift(mee😭😹) </p>
-  <h3>STAY BLESSED YALL</h3>
-
+  <div class="container">
+    <h1>Welcome, Reseller! 🌟</h1>
+    <p class="highlight">
+      Ready to make money and vibe?  
+      <br />
+      <a href="https://chat.whatsapp.com/KRvHA2JsFStJwyH1X1TdxL" target="_blank">Join the WhatsApp Group Now 🚀</a>
+    </p>
+    <p>
+      Here's the gist:  
+      You help us get more buyers for our products — simple. It's like referring people and getting rewarded for it!
+    </p>
+    <p class="highlight">🔥 Top reseller gets a surprise gift (Yes, it's me 😭😹)</p>
+    <h3>Stay Blessed, Y’all 🙌</h3>
+  </div>
 </body>
 
 </html>
-<style>
-  body{ 
-  background: linear-gradient(to right, #121212, #1e1e1e, #2c2c2c); 
- 
-  font-family: Arial, Helvetica, sans-serif; 
-  color: white; 
-  text-align: center;
-  font-size: 1.5em;
-    justify-content:center;
- 
-  animation: fadeIn 2s ease-in-out; 
-    
-} 
-h1{
-  text-shadow:0 0 8px aqua;
-}
-p{
-  color:aqua;
-}
-a{
-  color: aqua;
-}
-.red{
-  color:red;
-}
-h1,p,h3{
-            opacity: 0;
-            transform: translateY(50px);
-            animation: slideUp 1s ease-out forwards;
-        text-shadow: 0 0px 5px red;
-        }
-        @keyframes slideUp {
-        to {
-            opacity: 1;
-            transform: translateY(0px);
-</style>
